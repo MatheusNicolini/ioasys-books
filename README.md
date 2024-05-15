@@ -38,7 +38,9 @@ yarn dev
 
 6. Acesse http://localhost:3000/ em seu navegador para visualizar o ioasys-books em execução.
 
-Para logar: 
+Para logar:
+Usuário de Teste: desafio@ioasys.com.br
+Senha de Teste: 12341234
 
 ### Scripts Disponíveis
 - **npm run dev** ou **yarn dev**: Inicia o servidor de desenvolvimento Next.js.
