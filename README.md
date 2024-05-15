@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ioasys-books
 
-## Getting Started
+## Descrição
+Este é um projeto desenvolvido para o processo seletivo na empresa Iaosys. O objetivo deste projeto é criar um acervo de livros online, proporcionando uma plataforma para listar, pesquisar e visualizar informações sobre diversos livros.
+Este projeto utiliza o Next.js como tecnologia para criar uma interface interativa e responsiva.
 
-First, run the development server:
+### Instalação
+Para começar a usar o ioasys-books, siga estas etapas simples:
 
-```bash
+1. Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em nodejs.org.
+2. Clone este repositório em sua máquina local:
+````
+git clone https://github.com/MatheusNicolini/ioasys-books
+````
+
+3. Navegue até o diretório do projeto:
+````
+cd ioasys-books
+````
+
+4. Instale as dependências usando npm ou yarn:
+````
+npm install  
+````
+ou
+````
+yarn
+````
+
+5. Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento com o comando:
+````
 npm run dev
-# or
+````
+ou
+````
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6. Acesse http://localhost:3000/ em seu navegador para visualizar o ioasys-books em execução.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para logar: 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Scripts Disponíveis
+- **npm run dev** ou **yarn dev**: Inicia o servidor de desenvolvimento Next.js.
+- **npm run build** ou **yarn build**: Compila o projeto para produção.
+- **npm start** ou **yarn start**: Inicia o servidor Next.js em produção.
+- **npm run lint**: Executa a verificação de linting.
+- **npm run storybook** ou **yarn storybook**: Inicia o Storybook para desenvolvimento de componentes.
+- **npm run build-storybook** ou **yarn build-storybook**: Compila o Storybook para produção.
+- **npm test** ou **yarn test**: Executa os testes.
+- **npm run test:watch** ou **yarn test:watch**: Executa os testes em modo de observação.
 
-## Learn More
+### Tecnologias Principais Utilizadas
+- Next.js
+- React
+- React Hook Form
+- Yup
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Dependências de Desenvolvimento Principais
+- Storybook
+- Jest
+- ESLint
+- TypeScript
