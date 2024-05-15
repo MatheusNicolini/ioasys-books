@@ -1,0 +1,13 @@
+.wrapLogo {
+  display: flex;
+  gap: var(--space_md);
+  align-items: center;
+}
+
+.wrapLogo h1 {
+  font-weight: var(--weight_light);
+}
+
+.darkTitle {
+  color: var(--gray);
+}

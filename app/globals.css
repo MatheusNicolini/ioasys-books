@@ -1,0 +1,73 @@
+:root {
+  /* colors; */
+  --dark: #000;
+  --dark_32: rgba(0, 0, 0, 0.32);
+  --dark_40: rgba(0, 0, 0, 0.4);
+  --light_gray: rgb(153, 153, 153);
+  --gray: rgb(51, 51, 51);
+  --gray_2: rgba(51, 51, 51, .2);
+  --light: #fff;
+  --light_50: rgba(255, 255, 255, 0.5);
+  --primary: rgb(178, 46, 111);
+  --secondary: rgb(171, 38, 128);
+
+  --shadow_books: 0px 6px 24px 0px rgba(84, 16, 95, 0.13);
+
+  /* typhografy */
+  --fontsize_xs: 0.75rem;
+  --fontsize_sm: 0.875rem;
+  --fontsize_md: 1rem;
+  --fontsize_lg: 1.75rem;
+
+  --line_height_md: 1.25rem;
+
+  --weight_xlight: 200;
+  --weight_light: 300;
+  --weight_normal: 400;
+  --weight_semibold: 500;
+  --weight_bold: 700;
+
+  --button_height: 2.25rem;
+
+  /* shapes */
+  --radius_default: 4px;
+  --radius_full: 50%;
+
+  /* Breakpoints */
+  --bp_xxs: 320px;
+  --bp_xs: 425px;
+  --bp_sm: 768px;
+  --bp_md: 1024px;
+  --bp_lg: 1440px;
+
+  /* spacings */
+  --space_xxs: 0.25rem;
+  --space_xs: 0.5rem;
+  --space_md: 1rem;
+  --space_lg: 2rem;
+  --space_xl: 2.5rem;
+  --space_2xl: 3rem;
+  --space_3xl: 10rem;
+  --space_4xl: 30rem;
+  --space_5xl: 40rem;
+  --space_6xl: 48rem;
+  --space_full: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: var(--gray);
+}
+
+button,
+input {
+  font-family: inherit;
+}

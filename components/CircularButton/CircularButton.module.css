@@ -1,0 +1,11 @@
+.circleButton {
+  width: var(--space_lg);
+  height: var(--space_lg);
+  background-color: transparent;
+  border: 1px solid var(--gray_2);
+  border-radius: var(--radius_full);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

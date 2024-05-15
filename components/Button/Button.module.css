@@ -1,0 +1,8 @@
+.button {
+  height: var(--button_height);
+  padding: 0 1.25rem;
+  border-radius: calc(var(--button_height) / 2);
+  border: 0;
+  color: var(--primary);
+  font-weight: var(--weight_semibold);
+}

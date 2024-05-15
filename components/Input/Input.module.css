@@ -1,0 +1,36 @@
+.customInput {
+  background-color: var(--dark_32);
+  width: 23rem;
+  height: 3.75rem;
+  display: flex;
+  align-items: center;
+  border-radius: var(--radius_default);
+  padding-right: 1rem;
+  position: relative;
+}
+
+.customInput label {
+  color: var(--light_50);
+  padding: 0 1rem;
+  font-weight: var(--weight_normal);
+  font-size: var(--fontsize_xs);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space_xxs);
+  flex: 1;
+}
+
+.customInput > label > input {
+  background-color: transparent;
+  border: 0;
+  color: var(--light);
+  outline: none;
+  font-size: var(--fontsize_md);
+}
+
+@media screen and (max-width: 425px) {
+  .customInput {
+    width: 100%;
+  }
+}

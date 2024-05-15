@@ -1,0 +1,50 @@
+.booksDescription {
+  height: var(--space_3xl);
+  background-color: var(--light);
+  box-shadow: var(--shadow_books);
+  cursor: pointer;
+  display: flex;
+  width: calc(25% - var(--space_md) + 0.25rem);
+}
+
+.booksDescription .bookInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--space_md) var(--space_md) var(--space_md) 0;
+}
+
+.booksDescription .bookInfo .bookTitle {
+  font-size: var(--fontsize_sm);
+  font-weight: var(--weight_semibold);
+}
+
+.booksDescription .bookInfo .bookAuthor {
+  font-size: var(--fontsize_xs);
+  color: var(--secondary);
+}
+
+.booksDescription .bookInfo .otherInformations p {
+  font-size: var(--fontsize_xs);
+  color: var(--light_gray);
+}
+
+@media screen and (max-width: 1024px) {
+  .booksDescription {
+    flex: 1;
+    min-width: calc(33% - var(--space_md));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .booksDescription {
+    min-width: calc(50% - var(--space_md));
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .booksDescription {
+    min-width: 100%;
+  }
+}

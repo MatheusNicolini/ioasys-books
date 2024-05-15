@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: var(--space_md);
+  gap: var(--space_xs);
+}
+
+.pagination p {
+  font-size: var(--fontsize_xs);
+  margin-right: var(--space_md);
+}
+
+.pagination .previous {
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1024px) {
+  .pagination {
+    margin-bottom: var(--space_md);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pagination {
+    justify-content: center;
+  }
+}
