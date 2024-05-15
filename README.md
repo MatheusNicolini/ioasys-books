@@ -1,7 +1,7 @@
 # ioasys-books
 
 ## Descrição
-Este é um projeto desenvolvido para o processo seletivo na empresa Iaosys. O objetivo deste projeto é criar um acervo de livros online, proporcionando uma plataforma para listar, pesquisar e visualizar informações sobre diversos livros.
+Este é um projeto desenvolvido para o processo seletivo na empresa Ioasys. O objetivo deste projeto é criar um acervo de livros online, proporcionando uma plataforma para listar, pesquisar e visualizar informações sobre diversos livros.
 Este projeto utiliza o Next.js como tecnologia para criar uma interface interativa e responsiva.
 
 ### Instalação
